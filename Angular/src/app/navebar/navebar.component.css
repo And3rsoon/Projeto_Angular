@@ -1,0 +1,51 @@
+.pai{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    position: relative;
+    width: 1250px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #a0a0a0;
+    font: 20px;
+    padding: 10px 15px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    &:hover{
+        color: #000000;
+    }
+}
+
+a.ativo{
+    color: #4abd91;
+    border-bottom: 2px solid #4abd91;
+    &:hover{
+        color: #3aa87e;
+        border-bottom: 3px solid #3aa87e;
+    }
+}
+
+
+.hanken-grotesk{
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1250px){
+    .container{
+        width: 100%;
+    }
+}

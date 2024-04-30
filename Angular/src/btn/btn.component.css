@@ -1,0 +1,56 @@
+.btn_branco{
+        width: auto;
+        height: 40px;
+        background-color: #02a97e;
+        color: aliceblue;
+        font-size: 18px;
+        border-radius:2px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: aliceblue;  
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 20px;
+
+        &:hover{
+            background-color: white;
+            color:black;
+
+        }
+}
+
+.btn_azul{
+    width: auto;
+    height: 40px;
+    background-color: rgb(33, 29, 241);
+    color: aliceblue;
+    font-size: 18px;
+    border-color: rgb(33, 29, 241); ;
+    border-radius:2px;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+   
+
+    &:hover{
+        background-color: rgba(7, 5, 136, 0.658);
+    }
+}
+
+.hanken-grotesk-botao {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .btndentro{
+    flex:50%;
+    height: 60px;
+    position: absolute;
+    right: -10px;
+    top:7px;
+}

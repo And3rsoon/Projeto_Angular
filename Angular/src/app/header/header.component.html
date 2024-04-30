@@ -1,0 +1,28 @@
+<div class="pai">
+        <div class="container_sup">
+                <img [ngClass]="{'logosup':true}" ngSrc="assets/logo_sup.png" width="110" height="50">
+                <div [ngClass]="{'btn':true }"><app-btn btn="btn_azul hanken-grotesk-botao" texto="Cadastre-se gratuitamente"></app-btn></div>
+                <div [ngClass]="{'btn':true}"><app-btn btn="btn_branco hanken-grotesk-botao" texto="Entrar"></app-btn></div>
+        </div>
+        <div class="container_inf"  >
+                <div [ngClass]="['quadro01','hanken-grotesk-botao']">
+                        <span [ngClass]="['texto01']">SÃO MAIS DE 12.000 VAGAS</span><br>
+                        <span [ngClass]="['texto02']">Encontre sua vaga de emprego</span>
+                
+                        <div [ngClass]="['dv_input']">
+                                <input [ngClass]="['input_head']" type="text" placeholder="Digite um cargo, cidade ou estado">
+                                <app-btn btn="btn_azul hanken-grotesk-botao btndentro" texto="Buscar">
+                                        <span class="material-symbols-outlined">search</span>
+                                </app-btn>
+                        </div>
+
+                        <app-btn btn="btn_branco hanken-grotesk-botao" texto="Vagas para PCD"></app-btn>
+                        <app-btn btn="btn_branco hanken-grotesk-botao" texto="Vagas de tecnologia"></app-btn>
+                        <app-btn btn="btn_branco hanken-grotesk-botao" texto="Estágio e Trainee"></app-btn>
+                </div>
+                <div [ngClass]="['quadro02','hanken-grotesk-botao']">
+                        <img [ngClass]="{'img_head':true}" ngSrc="assets/homem_cel.png" width="548" height="442">
+                </div>
+        </div>
+</div>
+
